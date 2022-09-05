@@ -3,7 +3,9 @@ What does the model achieve?
 -The model depicts the linear regression between body weight and height. 
 
 How should metrics be interpreted?
--the body weight increases as the height increases. 
+-the body weight increases as the height increases. With the postive slope of 5.130, it shows the weight is positively correlated with the height. 
+The r square value of 0.87 depicts high variability of the data.
+
 
 What are appropriate use cases?
 -To predict weight based on the height among diverse populations. Assess if different factors such as diet, age or environment impact this analysis.
