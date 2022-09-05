@@ -1,0 +1,56 @@
+What does the model achieve?
+-The model depicts the linear regression between body weight and height. 
+
+How should metrics be interpreted?
+-the body weight increases as the height increases. 
+
+What are appropriate use cases?
+-To predict weight based on the height among diverse populations. Assess if different factors such as diet, age or environment impact this analysis.
+
+How is it implemented? *
+-As the height is meaured between different humans, it can be predicted that the weight also increases. This data was collected from 10 individuals and plotted with Height as independent variable
+and height was dependent variable. The linear regression was plotted in graphpad with positive slope. 
+
+What are caveats/biases/concerns to its usage?
+-this data is limited to only 10 samples, so the weight could still vary depending and regression could be questionable with limited data.
+
+How to interpret this specific result and advising action/next steps
+-the weight is increasing as the height increases, but it would be good to collect more data among different populations to assess if different environment, age, diet, ethnicity
+plays a role in this analysis. This data targeted specific city and ethnic group. 
+
+Results from Graphpad:
+Best-fit values
+Slope
+Y-intercept
+X-intercept
+1/Slope
+5.130 ± 0.7080
+-163.7 ± 43.94
+31.91
+0.1949
+95% Confidence Intervals
+Slope
+Y-intercept
+X-intercept
+3.497 to 6.762
+-265.0 to -62.35
+17.58 to 39.74
+Goodness of Fit
+R square
+Sy.x
+0.8678
+28.76
+Is slope significantly non-zero?
+F
+DFn,DFd
+P Value
+Deviation from horizontal?
+52.49
+1,8
+< 0.0001
+Significant
+Data
+Number of XY pairs
+Equation
+10
+Y = 5.130*X - 163.7
